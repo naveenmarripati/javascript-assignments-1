@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.main-container{
+    background-color:rgb(195, 196, 197);
+    height:1100px;
+    width:1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-heading{
+    color: #0f0f0f;
+    font-size: 23px;
+    font-family: "Roboto";
+}
+.sub-container{
+    background-color:rgb(2, 251, 2);
+    height:auto;
+    padding:10px;
+    box-shadow: 0,0,20px,rgb(0,0,0,0.15);
+    border-radius: 5px;
+    transition: transform 1s ease;
+    margin:10px;
+}
+.sub-container:hover{
+    transform: scale(1.05);
+}
+input{
+    box-shadow: 9px,5px,20px,rgb(0,0,0,1);
+}
+
+.heading{
+    color: #fff;
+    font-size: 17px;
+    font-family: "Roboto";
+    text-align: center;
+}
+.personal-label{
+    color: #fff;
+    font-size: 15px;
+    font-family: "Roboto";
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.field-container{
+    display: flex;
+}
+.flex-row{
+    display: flex;
+}
+.input-container{
+    margin: 10px;
+}
+.personal-input{
+    height: 30px;
+    width:170px;
+}
+.button-container{
+    text-align: center;
+}
+.button{
+    background-color: #6f95e7;
+    height:30px;
+    width:60px;
+    border-width: 0px;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 15px;
+    font-family: "Roboto";
+    margin-top: 10px;
+    transition: transform 1s ease;
+    
+}
+.button:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:670px) {
+    .field-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .sub-container{
+        margin-top: 15px;
+    }
+}
+@media screen and (min-width:768px) {
+    .sub-container{
+        background-color:rgb(2, 251, 2);
+        height:auto;
+        padding:10px;
+        box-shadow: 0,0,20px,rgb(0,0,0,0.15);
+        border-radius: 5px;
+        width:70%;
+    
+    }
+}

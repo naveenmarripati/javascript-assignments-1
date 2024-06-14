@@ -1,0 +1,89 @@
+
+.bg-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    color:rgb(17, 16, 16);
+    font-size: 23px;
+    font-family: "Roboto";
+    text-align:center;
+}
+.form-container{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSOJoXnTl6QBs_QwRsblZU8hkPkhTtvL_2qoSgNAiZSwKesYvW8kBl8ieQO9KduGfgorQ&usqp=CAU");
+    height:50vh;
+    width:50vw;
+    border-radius:10px;
+    background-size:cover;
+    padding:30px;
+    
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.label{
+    color:white;
+    font-size: 17px;
+    font-family: "Roboto";
+}
+input{
+    width:100%;
+    height:30px;
+}
+.email{
+    margin-left:30px;
+}
+.label-email{
+    padding-top:10px;
+    margin-left:74px;
+}
+.flex-row-container-radio{
+    margin-top: 10px;
+    display: flex;
+}
+.label-radio{
+    color:white;
+    font-size: 20px;
+    font-family: "Roboto";
+    padding-right:10px;
+}
+.radio{
+    height:auto;
+    width:auto;
+    margin-left:74px;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.button-container{
+    text-align: center;
+    margin-top:20px;
+}
+.button{
+    height:30px;
+    width:60px;
+}
+.car{
+    width:100%;
+}
+.label-email{
+    margin-top:10px;
+}
+.width{
+    width:27%;
+}
+.email-width{
+    width:87%;
+}

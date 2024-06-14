@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            margin: 0;
+            padding:0;
+            background-color: bisque;
+            height:100vh;
+            width:100vw;
+        }
+        .heading{
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
+            color:rgb(223, 87, 225);
+        }
+        .moving-center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .contact {
+            background-color: rgb(99, 255, 99);
+            height: 75%;
+            width: 30%;
+            padding: 20px;
+            margin: 50px;
+            border-radius: 5px;
+
+        }
+
+        .heading1 {
+            color: white;
+            font-size: 25px;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
+        input[type=radio] {
+            background-color: transparent;
+            border-color: white;
+            height: 10px;
+
+
+        }
+        .container{
+            margin-top: 20px;
+        }
+
+        .span {
+            color: white;
+            font-size: 16px;
+            margin-right: 20px;
+        }
+
+        .span1 {
+            color: white;
+            font-size: 16px;
+
+        }
+
+        .heading2 {
+            color: white;
+            font-size: 18px;
+            padding-top: 40px;
+        }
+
+        .input1 {
+            border-color: white;
+            border-width: 1px;
+            width: 90%;
+            border-top-style: none;
+            border-left-style: none;
+            border-right-style: none;
+            background-color: rgb(99, 255, 99);
+            color: white;
+            height:30px;
+
+        }
+        .text-area{
+            height:70px;
+        }
+       
+
+        .button {
+            color: rgb(63, 74, 74);
+            background-color: white;
+            height: 28px;
+            width: 60px;
+            margin-top: 18px;
+            border-width: 0px;
+            font-size: 10px;
+            height:35px;
+            width:90px;
+            border-radius:10px;
+            transition: transform 0.9s ease;
+        }
+        .button:hover{
+            transform: scale(1.2);
+        }
+        .button-center{
+           text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="heading">HTML Form</h1>
+    </header>
+    <section>
+        <article class="moving-center">
+            <div class="contact">
+                <div>
+                    <h1 class="heading1">CONTACT US</h1>
+                </div>
+                <div>
+                    <form action="/action_page.php" method="get">
+                        <div class="container"><!---->
+                            <input type="radio" name="radio" value="" /><!-- this is input element it takes user input-->
+                            <label for="radio" class="span">Say Hi</label><!--this is the lable element -->
+        
+                            <input type="radio" name="radio" value="" /><!--this is input element it takes user input-->
+                            <label for="radio" class="span1">Get a Quoto</label>
+                        </div>
+        
+                        <div class="container"><!-- this container holds the two elements they are label and input the type is text-->
+                            <label for="text-input" class="heading2">Your Name</label>
+                            <input class="input1" type="text" name="text-input" value="" placeholder="write you'r full name" />
+                        </div>
+        
+                        <div class="container"><!-- this container holds the two elements they are label and input the type is email-->
+                            <label for="user-email" class="heading2">Your Email</label><!--this is the lable element-->
+                            <input class="input1" type="email" name="user-email" value="" placeholder="write your email" /><!---->
+        
+                        </div>
+        
+                        <div class="container"><!-- this container holds the two elements they are label and textarea it takes the text from the user-->
+                            <label class="heading2">Your Message</label><!--this is the lable element-->
+                            <textarea rows="3" cols="120" class="input1 text-area"></textarea><!---->
+                        </div>
+                        <div class="button-center">
+                            <button type="submit" class="button">Submit</button><!--this is the button element the type of the button is submit-->
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+</html>

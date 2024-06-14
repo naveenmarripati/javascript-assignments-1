@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="responsive-registration.css">
+</head>
+
+<body>
+    <main>
+        <div class="main-container">
+            <h1 class="heading">Responsive registration</h1>
+            <div class="form-container">
+                <form action="#">
+                    <div class="flex-row-container">
+                        <div class="input-container">
+                            <label class="label" for="firstName">First Name</label>
+                            <input type="text" name="firstName" value="" placeholder="First Name">
+                        </div>
+                        <div class="input-container">
+                            <label class="label" for="lastName">Last Name</label>
+                            <input type="text" name="lastName" value="" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="flex-row-container">
+                        <div class="input-container">
+                            <label class="label" for="username">Username</label>
+                            <input type="text" name="username" value="" placeholder="Username">
+                        </div>
+                        <div class="input-container">
+                            <label class="label" for="email">Email</label>
+                            <input type="email" name="email" value="" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="flex-row-container">
+                        <div class="input-container">
+                            <label class="label" for="password">Password</label>
+                            <input type="password" name="password" value="" placeholder="Password">
+                        </div>
+                        <div class="input-container">
+                            <label class="label" for="password">Confirm Password</label>
+                            <input type="password" name="password" value="" placeholder="Confirm Password">
+                        </div>
+                    </div>
+                    <div class="flex-row-container">
+                        <div class="input-container">
+                            <label class="label" for="date">Date of Birth </label>
+                            <input type="datr" name="date" value="" placeholder="Date of Birth ">
+                        </div>
+                        <div class="input-container">
+                            <label class="label" for="browser">Country </label>
+                            <input list="country" name="browser" id="country-name">
+
+                            <datalist id="country">
+                                <option value="India">
+                                <option value="Afghanistan">
+                                <option value="Armenia">
+                                <option value="Bangladesh">
+                                <option value="Belize">
+                            </datalist>
+                        </div>
+                    </div>
+                    <div class="flex-row-container-radio">
+                        <div>
+                            <input class="radio" type="radio" name="gender" value="">
+                            <label class="label-radio" for="gender">Male </label>
+                        </div>
+                        <div>
+                            <input class="radio" type="radio" name="gender" value="">
+                            <label class="label-radio" for="gender">Female</label>
+                        </div>
+                        <div>
+                            <input class="radio" type="radio" name="gender" value="">
+                            <label class="label-radio" for="gender">Other</label>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="interests">Interests</h1>
+                        <div class="flex-row-container">
+                            <div class="input-container">
+                                <div>
+                                    <input class="checkbox" type="checkbox" name="" id="market" value="">
+                                    <label class="label" for="market">Marketing Coordinator</label>
+                                </div>
+                                <div>
+                                    <input class="checkbox" type="checkbox" name="" id="medical" value="">
+                                    <label class="label label-1" for="medical">Medical Assistant</label>
+                                </div>
+                                <div>
+                                    <input class="checkbox" type="checkbox" name="" id="web" value="">
+                                    <label class="label" for="web">Web Designer</label>
+                                </div>
+                                <div>
+                                    <input class="checkbox" type="checkbox" name="" id="manager" value="">
+                                    <label class="label" for="manager">Project Manager</label>
+                                </div>
+                            </div>
+                            <div class="input-container">
+                                <label class="label" for="file">Profile Picture</label>
+                                <input type="file" name="file" value="" placeholder="Upload File">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-container margin">
+                        <label class="label" for="bio">Short Bio</label>
+                        <textarea id="bio" name="bio" rows="4" cols="50">Your Bio</textarea>
+                    </div>
+                    <div class="margin">
+                        <input class="checkbox" type="checkbox" name="" id="terms" value="">
+                        <label class="label" for="terms">I agree the terms and conditions</label>
+                    </div>
+                    <div class="button-container">
+                        <button class="button">Submit</button>
+                        <button class="button">Reset</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

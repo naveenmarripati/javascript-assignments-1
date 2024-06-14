@@ -1,0 +1,5 @@
+
+.div-container{/*div-container is a selector*/
+    /*text-align is a property: center is a value*/
+    text-align: center;/*text-align property specifies the horizontal alignment of the text*/
+}

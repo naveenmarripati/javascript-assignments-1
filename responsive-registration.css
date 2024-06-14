@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    background-color:rgb(221, 215, 215);
+    height:900px;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.heading{
+    color:rgb(17, 16, 16);
+    font-size: 23px;
+    font-family: "Roboto";
+    text-align:center;
+}
+.form-container{
+    background-image: url("https://wallpaperswide.com/download/fish_form-wallpaper-1680x1050.jpg");
+    height:75%;
+    width:40%;
+    background-size: cover;
+    border-radius:10px;
+    padding:20px;
+}
+.label{
+    color:white;
+    font-size: 17px;
+    font-family: "Roboto";
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+input{
+    width:90%;
+    height:30px;
+    border-left-width: 6px;
+    border-left-color: #1affff;
+    border-top-width:0px;
+    border-bottom-width:0px;
+    border-right-width:0px;
+    border-radius: 3px;
+}
+.flex-row-container{
+    display: flex;
+    justify-content: space-around;
+}
+.flex-row-container-radio{
+    margin-top: 10px;
+    display: flex;
+}
+.label-radio{
+    color:white;
+    font-size: 20px;
+    font-family: "Roboto";
+    padding-right:10px;
+}
+.checkbox,
+.radio{
+    height:auto;
+    width:auto;
+}
+.interests{
+    color:white;
+    font-size: 20px;
+    font-family: "Roboto";
+    padding-left:5px;
+}
+.margin{
+    margin-top: 20px;
+}
+.button-container{
+    text-align: center;
+    margin-top:20px;
+}
+.button{
+    height:30px;
+    width:60px;
+}
+@media screen and (max-width:568px) {
+    .main-container{
+        background-color:rgb(221, 215, 215);
+        height:1200px;
+        width:100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .form-container{
+        background-image: url("https://wallpaperswide.com/download/fish_form-wallpaper-1680x1050.jpg");
+        height:95%;
+        width:50%;
+        background-size: cover;
+        border-radius:10px;
+        padding:20px;
+    }
+    .flex-row-container{
+        display: flex;
+        flex-direction: column;
+    }
+    input{
+        min-width:90%;
+        max-height: 90%;
+        height:30px;
+        border-left-width: 6px;
+        border-left-color: #1affff;
+        border-top-width:0px;
+        border-bottom-width:0px;
+        border-right-width:0px;
+        border-radius: 3px;
+    }
+    .checkbox{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-right:0px;
+        padding-left:0px;
+        float: left;
+    }
+}

@@ -1,0 +1,33 @@
+.box-model{
+    display: flex;
+}
+.height{
+    line-height: 350px;
+}
+.box-container{
+    border-style:dotted;
+    background-color: azure;
+    text-align: center;
+    padding-left: 35px;
+    padding-bottom: 35px;
+    padding-right: 35px;
+}
+.border{
+    background-color: rgb(8, 231, 75);
+    padding-left: 35px;
+    padding-bottom: 35px;
+    padding-right: 35px;
+}
+.padding{
+    background-color: beige;
+    padding-left: 35px;
+    padding-bottom: 35px;
+    padding-right: 35px;
+}
+.content{
+    background-color: white;
+    border-style: dotted;
+}
+.width{
+    padding-left: 110px;
+}

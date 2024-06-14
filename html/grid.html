@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height:100vh;
+            display: grid;
+            grid-auto-flow: column dense;
+            /* grid-template-columns:28% 28% 28% 16%; */
+            /* grid-template-rows:10% 30% 50% 10%; */
+            grid-auto-flow: dense;
+            row-gap: 10px;
+            column-gap: 10px;
+        }
+        .header{
+            background-color: rgb(28, 232, 232);
+            grid-row: 1/2;
+            grid-column: 1/5;
+        }
+        .smallbox-1{
+            background-color: rgb(28, 232, 59);
+            grid-row: 2/3;
+            grid-column: 1/2;
+        }
+        .smallbox-2{
+            background-color: rgb(232, 232, 28);
+            grid-row: 2/3;
+            grid-column: 2/3;
+        }
+        .smallbox-3{
+            background-color: rgb(123, 28, 232);
+            grid-row: 2/3;
+            grid-column: 3/4;
+        }
+        .sidebar{
+            background-color: rgb(28, 76, 232);
+            grid-row: 2/5;
+            grid-column: 4/5;
+            
+        }
+        .main-content{
+            background-color: rgb(232, 28, 161);
+            grid-row: 3/4;
+            grid-column: 1/4;
+        }
+        .footer{
+            background-color: rgb(232, 28, 28);
+            grid-row: 4/5;
+            grid-column: 1/4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Header</div><!--header container-->
+        <div class="smallbox-1">smallbox</div><!--box1 container-->
+        <div class="smallbox-2">smallbox</div><!--box2 container-->
+        <div class="smallbox-3">smallbox</div><!--box3 container-->
+        <div class="sidebar">sidebar</div><!--sidebar container-->
+        <div class="main-content">main-content</div><!--main container-->
+        <div class="footer">Footer</div><!--footer container-->
+    </div>
+    
+</body>
+</html>

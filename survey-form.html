@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="survey-form.css">
+</head>
+
+<body>
+    <h1 class="heading">Survey Form</h1>
+    <form action="">
+        <div class="bg-container">
+            <div class="form-container">
+                <div class="flex-row">
+                    <div class="flex-column">
+                        <label class="label" for="name">Name</label>
+                        <input type="text" name="name" value="" placeholder="Name">
+                    </div>
+                    <div class="flex-column">
+                        <label class="label" for="age">Age</label>
+                        <input type="text" name="age" value="" placeholder="Age">
+                    </div>
+                </div>
+                <div class="flex-row">
+                    <div class="flex-column">
+                        <label class="label email" for="email">Email</label>
+                        <input  class="email email-width" type="email" name="email" value="" placeholder="Email">
+                    </div>
+                    <div class="flex-row-container-radio">
+                        <div>
+                            <input class="radio" type="radio" name="gender" value="">
+                            <label class="label-radio" for="gender">Yes </label>
+                        </div>
+                        <div>
+                            <input class="radio" type="radio" name="gender" value="">
+                            <label class="label-radio" for="gender">No</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-container">
+                    <label class="label label-email" for="browser">Country </label>
+                    <input class="car label-email width" list="country" name="browser" id="country-name">
+
+                    <datalist id="country">
+                        <option value="Daily">
+                        <option value="Weekly">
+                        <option value="Monthly">
+                        <option value="Rarely">
+                    </datalist>
+                </div>
+                <div class="button-container">
+                    <button class="button">Submit</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

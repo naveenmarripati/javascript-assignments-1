@@ -1,0 +1,62 @@
+<!--
+    ### Question 1: Nested TablesCreate an HTML table that contains another table within one of its cells. 
+    The outer table should have 3 rows and 3 columns. The nested table should be placed in the middle
+    cell (2nd row, 2nd column)and should have 2 rows and 2 columns. Include appropriate headers and data for both tables.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <table border="2">
+        <caption>Nested Table</caption>
+        <tr>
+            <th> column 1</th>
+            <th>column 2</th>
+            <th>column 3</th>
+        </tr>
+        <tr>
+            <td>row 1</td>
+            <td>
+            <table border="2">
+                <tr>
+                    <th>nested column 1</td>
+                    <th>nested column 2</td>
+                </tr>
+                <tr>
+                    <td>nested row 1</td>
+                    <td>nested row 2</td>
+                </tr>
+                <tr>
+                    <td>nested row 4</td>
+                    <td>nested row 5</td>
+                </tr>
+            </table>
+        </td> 
+        <td>row 1</td>
+        </tr>
+        <tr>
+            <td>row 2</td>
+            <td>row 2</td>
+            <td>row 2</td>
+        </tr>
+        <tr>
+            <td>row 3</td>
+            <td>row 3</td>
+            <td>row 3</td>
+        </tr>
+    </table>
+</body>
+
+</html>

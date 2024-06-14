@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .links {
+            background-color: rgb(91, 241, 241);
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .item {
+            color: white;
+            line-height: 20px;
+            padding: 10px;
+        }
+
+        .unorder-list {
+            display: flex;
+            list-style-type: none;
+
+        }
+
+        .section-container {
+            background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/hand-holding-tree-img.png");
+            background-size: cover;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background-color: rgb(252, 252, 252);
+            height: 100%;
+            width: 80%;
+            margin-left: 70px;
+            padding: 10px;
+
+        }
+
+        .services-section-heading {
+            color: #183b56;
+            font-family: "Roboto";
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+
+        }
+
+        .services-section-description {
+            color: #616c7c;
+            font-family: "Roboto";
+            font-size: 15px;
+        }
+
+        .card-container {
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .card {
+            box-shadow: 3px 10px 8px 10px #dad9d9;
+            height: 300px;
+            width: 300px;
+            background-color: #ffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 10px;
+            padding:10px;
+        }
+
+        .image {
+            height: 100px;
+            width: 80px;
+        }
+
+        .image-heading {
+            color: #1f2933;
+            font-family: "Roboto";
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .image-description {
+            color: #616c7c;
+            font-family: "Roboto";
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="links">
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul class="unorder-list">
+                <li class="item"><a href="#">Home</a></li>
+                <li class="item"><a href="#">About</a></li>
+                <li class="item"><a href="#">Services</a></li>
+                <li class="item"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="section-container">
+        <article>
+            <div class="container">
+                <h1 class="services-section-heading">
+                    Our Services
+                </h1>
+                <p class="services-section-description">
+                    Most online stores offer lower prices.
+                    Online shopping makes price
+                    comprison simpler and quicker.It is
+                    very convenient to shop from where you
+                    are located.It saves you the cost of
+                    driving to stores,as well as parking fees.
+
+                </p>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="ecommerce-services-delivery-img.png" class="image" />
+                        <h1 class="image-heading">
+                            Fast and Free Delivery
+                        </h1>
+                        <p class="image-description">
+                            Fast,free,and convenient delivery choices on millions of items.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="ecommerce-services-money-back-img-1.png" class="image" />
+                        <h1 class="image-heading">
+                            Fast and Free Delivery
+                        </h1>
+                        <p class="image-description">
+                            Fast,free,and convenient delivery choices on millions of items.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="ecommerce-services-24-by-7-support-img-2.png" class="image" />
+                        <h1 class="image-heading">
+                            Fast and Free Delivery
+                        </h1>
+                        <p class="image-description">
+                            Fast,free,and convenient delivery choices on millions of items.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
